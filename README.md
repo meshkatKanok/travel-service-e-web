@@ -9,7 +9,7 @@ Project Detials-----------
 
 ** second crate a banner part with use taiwind component desui and custom image
 
-** I use mongo db method get ,poat,delete,patch,use client side and Server side
+** I use mongo db method get ,post,delete,patch,use client side and Server side
 
 
 ** Its Features review part,User send review and show review,user cracte a Data and show Website,,,

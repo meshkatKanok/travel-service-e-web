@@ -1,0 +1,7 @@
+.loading{
+    background:white url(../../../img/Loading_icon.gif) center center;
+    height:400px;
+    width:400px;
+    margin: 0 auto;
+    z-index: 100;
+}

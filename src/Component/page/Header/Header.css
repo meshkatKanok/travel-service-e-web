@@ -1,0 +1,15 @@
+.carousel-caption{
+    position: absolute;
+    right: 15%;
+    bottom:100px;
+    left: 15%;
+    z-index: 10;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0px 1px 2px rgb(0 0 0 / 60%);
+    padding:50px;
+    background: #333333;
+    background: rgba(0, 0, 0, 0.55);
+    font-family: 'Love Ya Like A Sister', cursive!important;
+    margin-top: 10px;
+}

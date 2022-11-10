@@ -30,7 +30,7 @@ loader:({params})=>fetch(`https://assignment-server-three.vercel.app/services/${
 loader:()=>fetch(`https://assignment-server-three.vercel.app/review`)
 }
 ,
-{path:'/addservices',element:<AddServices/>},
+{path:'/addservices',element:<PrivateRoute><AddServices/></PrivateRoute>},
 {path:'/login',element:<Login></Login>},
 {path:'/signup',element:<Signup></Signup>},
 {path:'/blog',element:<Blog></Blog>},

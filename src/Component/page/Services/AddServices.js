@@ -49,14 +49,14 @@ const AddServices = () => {
       </Helmet>
 
 <div>
-                    <form onSubmit={handleCheck}>
-                <div className='grid md:grid-cols-1 lg:grid-cols-2 py-10 gap-5'>
+                    <form onSubmit={handleCheck} className='max-w-screen-xl mx-auto bg-orange-200 px-10 py-10'>
+                <div className='grid md:grid-cols-1 lg:grid-cols-2 py-10 gap-5 '>
                 <input name='ServiceName'  type="text" placeholder="Enter a ServiceName" className="input input-bordered  w-full" />
                 <input name='serviceimage' type="text" placeholder="Enter a serviceimage" className="input input-bordered  w-full" />
-                <input name='serviceDis' type="text" placeholder="Enter a serviceDis" className="input input-bordered  w-full" />
+                <input name='serviceDis' type="text" placeholder="Enter a serviceDiscription" className="input input-bordered  w-full" />
                 <input name='price' type="text" placeholder='Enter a price'  className="input input-bordered  w-full" />
                 </div>
-                <input className="btn btn-warning w-full mb-5 mt-5" type="submit" value='Added Service' />
+                <input className="btn bg-orange-600 text-white w-1/2 border-none mx-auto mb-5 mt-5" type="submit" value='Added Service' />
                
                     </form>
                 </div>

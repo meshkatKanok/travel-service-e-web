@@ -10,6 +10,8 @@ const Myreview = () => {
         position:'top-center'
     });
 
+   
+
     const handleDelete=(id)=>{
         
             fetch(`https://assignment-server-three.vercel.app/review/${id}`,{
@@ -50,11 +52,12 @@ useEffect(()=>{
                 </p>  :
             <div>
                      {
-                        deletereview?.map(review=><Review key={review._id}  review={review} handleDelete={handleDelete}>
+                        deletereview?.map(review=><Review key={review._id} deletereview={deletereview}  review={review} handleDelete={handleDelete}>
                     
                         </Review>)
                          }
                      </div>
+                     
 
                         }
                 

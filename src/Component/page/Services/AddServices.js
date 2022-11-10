@@ -23,7 +23,7 @@ const AddServices = () => {
 
         }
 
-        fetch('https://assignment-server-three.vercel.app/threeservices', {
+        fetch(' https://assignment-server-three.vercel.app/threeservices', {
   method: 'POST',
   headers: {
     'Content-Type': 'application/json',

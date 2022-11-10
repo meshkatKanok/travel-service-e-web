@@ -1,3 +1,17 @@
+Project Detials-----------
+
+** Its a travel service image.project use javascript frirmwork,react,css firmwork taiwind,desiui component and others
+**frist of All setup vscode and setup react,react router dom,react pakage,firebase,mongodb etc
+** Frist make heading and navbar
+** second crate a banner part with use taiwind component desui and custom image
+** I use mongo db method get ,poat,delete,patch,use client side and Server side
+** Its Features review part,User send review and show review,user cracte a Data and show Website,,,
+all features use firebase,and mongodb crud
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import './Homethree.css'
 import 'react-photo-view/dist/react-photo-view.css';
 import { PhotoProvider, PhotoView } from 'react-photo-view';
+import 'react-photo-view/dist/react-photo-view.css';
 
 const Homethree = ({ item }) => {
     const { ServiceName, serviceDis, serviceimage, price, _id
@@ -12,7 +13,13 @@ const Homethree = ({ item }) => {
 
         <div>
             <div className="card card-compact bg-base-100 shadow-xl h-96 mt-10">
-                <figure><img src={serviceimage} alt="serviceimage" /></figure>
+           
+                <PhotoProvider>
+          <PhotoView src={serviceimage}>
+          <figure><img src={serviceimage} alt="serviceimage" /></figure>
+          </PhotoView>
+    </PhotoProvider>
+
                 <div className="card-body">
                     <h2 className="card-title text-2xl font-semibold mt-2 text-orange-600">{ServiceName}</h2>
                     {

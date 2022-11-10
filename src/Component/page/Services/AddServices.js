@@ -56,7 +56,7 @@ const AddServices = () => {
                 <input name='serviceDis' type="text" placeholder="Enter a serviceDis" className="input input-bordered  w-full" />
                 <input name='price' type="text" placeholder='Enter a price'  className="input input-bordered  w-full" />
                 </div>
-                <input className="btn btn-warning w-full mb-5 mt-5" type="submit" value='checkOut' />
+                <input className="btn btn-warning w-full mb-5 mt-5" type="submit" value='Added Service' />
                
                     </form>
                 </div>

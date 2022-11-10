@@ -8,24 +8,28 @@ import { AuthContex } from '../../Context/AuthProvider';
 import './../Login/Login.css'
 
 const ServicesItem = ({ service }) => {
-    const {loading}=useContext(AuthContex)
+    const { loading } = useContext(AuthContex)
     const { ServiceName, serviceDis, serviceimage, price, _id
     } = service
 
-    if(loading){
+    if (loading) {
         return <div className="loading"></div>
     }
     return (
         <div>
-             <Helmet>
-        <title>ServicesItem</title>
-        
-      </Helmet>
+            <Helmet>
+                <title>ServicesItem</title>
+
+            </Helmet>
 
             <div>
                 <div className="card card-compact bg-base-100 shadow-xl h-96 mt-10">
-                 <figure><img src={serviceimage} alt="serviceimage" /></figure>
-                    
+                    <PhotoProvider>
+                        <PhotoView src={serviceimage}>
+                            <figure><img src={serviceimage} alt="serviceimage" /></figure>
+                        </PhotoView>
+                    </PhotoProvider>
+
                     <div className="card-body">
                         <h2 className="card-title text-2xl font-semibold mt-2 text-orange-600">{ServiceName}</h2>
                         {

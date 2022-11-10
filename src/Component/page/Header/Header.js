@@ -46,7 +46,7 @@ const Header = () => {
       
       </ul>
     </div>
-  <img className='h-20' src={headimg}/>
+  <img className='h-20 ml-16' src={headimg}/>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal p-0 text-white">
@@ -66,7 +66,7 @@ const Header = () => {
           <img src={user?.photoURL} />
         </div>
       </label></>:<>
-      <FaUser className='text-white text-2xl mx-32'></FaUser>
+      <FaUser className='text-white text-2xl lg:mx-32'></FaUser>
       </>
     }
  
